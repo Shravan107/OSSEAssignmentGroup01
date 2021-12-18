@@ -10,11 +10,11 @@
 # Introduction
 Basic spring boot student application.
 
-GET /user :  Get the user
-POST /user : Create a new user
-GET /student : Get all students
-GET /result/{id} : Get result for student with passes id.
-POST /student : Create a new Student.
+GET /user :  Get the user<br>
+POST /user : Create a new user <br>
+GET /student : Get all students<br>
+GET /result/{id} : Get result for student with passes id. <br>
+POST /student : Create a new Student.<br>
 
 GET /teacher : Get the teacher
 GET /teacher/classes : Get teachers classes
