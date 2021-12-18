@@ -10,6 +10,7 @@
 # Introduction
 Basic spring boot student application.
 
+# API Details
 GET /user :  Get the user<br>
 POST /user : Create a new user <br>
 GET /student : Get all students<br>
