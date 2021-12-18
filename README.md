@@ -7,9 +7,13 @@
 | Sameer              | 2020SP93028 | 2020sp93028@wilp.bits-pilani.ac.in |
 | Shravan M Shanbhag  | 2020SP93035 | 2020sp93035@wilp.bits-pilani.ac.in |
 
+# Introduction
+Basic spring boot student application.
 
 GET /user :  Get the user
 POST /user : Create a new user
 GET /student : Get all students
 GET /result/{id} : Get result for student with passes id.
 POST /student : Create a new Student.
+
+
