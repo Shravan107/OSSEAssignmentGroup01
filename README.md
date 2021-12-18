@@ -20,6 +20,9 @@ GET /teacher : Get the teacher <br>
 GET /teacher/{id}/classes : Get teachers classes <br>
 POST /teacher : Create a new teacher <br>
 
+GET /admin : Get the admin <br>
+POST /admin/data : Post admin data <br>
+
 
 
 
