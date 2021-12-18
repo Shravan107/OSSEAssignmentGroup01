@@ -16,4 +16,10 @@ GET /student : Get all students
 GET /result/{id} : Get result for student with passes id.
 POST /student : Create a new Student.
 
+GET /teacher : Get the teacher
+GET /teacher/classes : Get teachers classes
+POST /teacher : Create a new teacher
+
+
+
 
