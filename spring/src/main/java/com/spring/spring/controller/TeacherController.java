@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.spring.spring.model.Student;
+import com.spring.spring.model.Teacher;
 import com.spring.spring.model.User;
 
 @RestController
@@ -21,6 +22,12 @@ public class TeacherController {
 	@PostMapping("/teacher")
     public String postTeacherData(@RequestBody String student) {
         return student;
+    }
+	
+	@GetMapping("/teacher/classes")
+    public String getClasses()) {
+		Teacher t = new Teacher("teacher1", "password", "10");
+        return t.getClasses();
     }
 	
 }
