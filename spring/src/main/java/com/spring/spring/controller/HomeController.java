@@ -17,4 +17,9 @@ public class HomeController {
         System.out.println(student.getName());
         return student;
     }
+
+    @GetMapping("/result/{id}")
+    public Integer getResult(@PathVariable("id") String id) {
+        return new Integer(89);
+    }
 }
