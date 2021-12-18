@@ -24,8 +24,8 @@ public class TeacherController {
         return student;
     }
 	
-	@GetMapping("/teacher/classes")
-    public String getClasses()) {
+	@GetMapping("/teacher/{id}/classes")
+    public String getClasses() {
 		Teacher t = new Teacher("teacher1", "password", "10");
         return t.getClasses();
     }
