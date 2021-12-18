@@ -1,5 +1,6 @@
 package com.spring.spring.controller;
 
+import com.spring.spring.model.Student;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -12,7 +13,8 @@ public class HomeController {
     }
 
     @PostMapping("student")
-    public String postStudentData(@RequestBody String name) {
-        return "Data posted successfully";
+    public Student postStudentData(@RequestBody Student student) {
+        System.out.println(student.getName());
+        return student;
     }
 }
