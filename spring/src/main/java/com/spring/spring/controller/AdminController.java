@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.spring.spring.model.Admin;
 import com.spring.spring.model.User;
 
-int pass = "12345";
 
 @RestController
 @RequestMapping("/api/v1")
